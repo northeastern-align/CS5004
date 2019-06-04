@@ -44,11 +44,13 @@ public class YesNoTest {
   @Test
   public void testYes() {
     yesNoRequired.answer("Yes");
+    assertEquals("Yes", yesNoRequired.getAnswer());
   }
 
   @Test
   public void testNo() {
     yesNoRequired.answer("No");
+    assertEquals("No", yesNoRequired.getAnswer());
   }
 
   @Test(expected = IllegalArgumentException.class)

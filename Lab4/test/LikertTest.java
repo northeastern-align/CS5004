@@ -44,26 +44,31 @@ public class LikertTest {
   @Test
   public void testStronglyAgree() {
     likertRequired.answer("Strongly Agree");
+    assertEquals("Strongly Agree", likertRequired.getAnswer());
   }
 
   @Test
   public void testAgree() {
     likertRequired.answer("Agree");
+    assertEquals("Agree", likertRequired.getAnswer());
   }
 
   @Test
   public void testNeither() {
     likertRequired.answer("Neither Agree nor Disagree");
+    assertEquals("Neither Agree nor Disagree", likertRequired.getAnswer());
   }
 
   @Test
   public void testDisagree() {
     likertRequired.answer("Disagree");
+    assertEquals("Disagree", likertRequired.getAnswer());
   }
 
   @Test
   public void testStronglyDisagree() {
     likertRequired.answer("Strongly Disagree");
+    assertEquals("Strongly Disagree", likertRequired.getAnswer());
   }
 
   @Test(expected = IllegalArgumentException.class)

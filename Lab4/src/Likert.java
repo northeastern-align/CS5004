@@ -23,9 +23,8 @@ public class Likert implements IQuestion {
   /**
    * Returns the string of the question being asked.
    *
-   * @return the string of the question being asked.
+   * @return the string of the question being asked
    */
-  @Override
   public String getQuestionText() {
     return this.question;
   }
@@ -35,9 +34,17 @@ public class Likert implements IQuestion {
    *
    * @return if the question is required (boolean)
    */
-  @Override
   public boolean getQuestionRequired() {
     return this.required;
+  }
+
+  /**
+   * Returns the answer of the question.
+   *
+   * @return the answer of the question
+   */
+  public String getAnswer() {
+    return this.answer;
   }
 
   /**
@@ -48,7 +55,6 @@ public class Likert implements IQuestion {
    * @param answer the answer provided by a user
    * @throws IllegalArgumentException if the answer does not follow the Likert scale
    */
-  @Override
   public void answer(String answer) throws IllegalArgumentException {
     if (answer.equals("Strongly Agree")
         || answer.equals("Agree")

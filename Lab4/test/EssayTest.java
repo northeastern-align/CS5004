@@ -44,18 +44,25 @@ public class EssayTest {
   @Test
   public void testShort() {
     essayRequired.answer("1");
+    assertEquals("1", essayRequired.getAnswer());
   }
 
   @Test
   public void testLong() {
     essayRequired.answer("This is exactly 140 characters. I have tested it using lettercount.com."
         + " One more letter would return an illegal argument exception. Hooray!!");
+    assertEquals("This is exactly 140 characters. I have tested it using lettercount.com."
+            + " One more letter would return an illegal argument exception. Hooray!!",
+        essayRequired.getAnswer());
   }
 
   @Test
   public void testLongLowerCase() {
     essayRequired.answer("this is exactly 140 characters. i have tested it using lettercount.com."
         + " one more letter would return an illegal argument exception. hooray!!");
+    assertEquals("this is exactly 140 characters. i have tested it using lettercount.com."
+            + " one more letter would return an illegal argument exception. hooray!!",
+        essayRequired.getAnswer());
   }
 
   @Test(expected = IllegalArgumentException.class)
