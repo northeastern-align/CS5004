@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3463128d-e6d9-4a0e-9872-ad1b4d899b40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Lab5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lecture6/src/BIG_VIEW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lecture6/src/GUIView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/AbstractPiece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/Bishop.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/Bishop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/IChessPiece.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/IChessPiece.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/Knight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/Pawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/Pawn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/Queen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/Queen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/Rook.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/Rook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/test/Assignment3/BishopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/test/Assignment3/BishopTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/test/Assignment3/KnightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/test/Assignment3/KnightTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/test/Assignment3/PawnTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/test/Assignment3/PawnTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/test/Assignment3/QueenTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/test/Assignment3/QueenTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/test/Assignment3/RookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/test/Assignment3/RookTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/src/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/src/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/src/IChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/IChessPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/src/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/src/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/src/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/src/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/test/BishopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/test/BishopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/test/KnightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/test/KnightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/test/PawnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/test/PawnTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/test/QueenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/test/QueenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/test/RookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/test/RookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment4/out/test/Assignment4/PolynomialImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment4/out/test/Assignment4/PolynomialImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment4/test/PolynomialImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment4/test/PolynomialImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/src/FibonacciCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/FibonacciCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/test/FibonacciCounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/test/FibonacciCounterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/test/TransmissionBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/test/TransmissionBoxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PunctuationNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1035">
+              <caret line="70" column="46" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
+              <folding>
+                <element signature="e#106#107#0" expanded="true" />
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#1359#1360#0" expanded="true" />
+                <element signature="e#1415#1416#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ISentence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/ISentenceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="200" column="3" selection-start-line="200" selection-start-column="3" selection-end-line="200" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1511#1512#0" expanded="true" />
+                <element signature="e#1572#1573#0" expanded="true" />
+                <element signature="e#1617#1618#0" expanded="true" />
+                <element signature="e#1677#1678#0" expanded="true" />
+                <element signature="e#1731#1732#0" expanded="true" />
+                <element signature="e#1794#1795#0" expanded="true" />
+                <element signature="e#1842#1843#0" expanded="true" />
+                <element signature="e#1904#1905#0" expanded="true" />
+                <element signature="e#1954#1955#0" expanded="true" />
+                <element signature="e#2018#2019#0" expanded="true" />
+                <element signature="e#2228#2229#0" expanded="true" />
+                <element signature="e#2285#2286#0" expanded="true" />
+                <element signature="e#2340#2341#0" expanded="true" />
+                <element signature="e#2363#2364#0" expanded="true" />
+                <element signature="e#2801#2802#0" expanded="true" />
+                <element signature="e#2858#2859#0" expanded="true" />
+                <element signature="e#2897#2898#0" expanded="true" />
+                <element signature="e#2954#2955#0" expanded="true" />
+                <element signature="e#3112#3113#0" expanded="true" />
+                <element signature="e#3171#3172#0" expanded="true" />
+                <element signature="e#3215#3216#0" expanded="true" />
+                <element signature="e#3274#3275#0" expanded="true" />
+                <element signature="e#3318#3319#0" expanded="true" />
+                <element signature="e#3380#3381#0" expanded="true" />
+                <element signature="e#3530#3531#0" expanded="true" />
+                <element signature="e#3589#3590#0" expanded="true" />
+                <element signature="e#3633#3634#0" expanded="true" />
+                <element signature="e#3692#3693#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WordNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
+              <folding>
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EmptyNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding>
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/ISentence.java" />
+        <option value="$PROJECT_DIR$/src/EmptyNode.java" />
+        <option value="$PROJECT_DIR$/src/PunctuationNode.java" />
+        <option value="$PROJECT_DIR$/src/WordNode.java" />
+        <option value="$PROJECT_DIR$/test/ISentenceTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="720" />
+    <option name="y" value="23" />
+    <option name="width" value="960" />
+    <option name="height" value="971" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Lab5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab5" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ISentenceTest">
+    <configuration name="ISentenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ISentenceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SentenceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ISentenceTest" />
+        <item itemvalue="JUnit.SentenceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3463128d-e6d9-4a0e-9872-ad1b4d899b40" name="Default Changelist" comment="" />
+      <created>1560311062281</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560311062281</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ISentenceTest - 2019.06.12 at 23h 21m 41s.xml">
+      <configuration name="ISentenceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ISentenceTest - 2019.06.12 at 23h 22m 59s.xml">
+      <configuration name="ISentenceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ISentenceTest - 2019.06.12 at 23h 30m 12s.xml">
+      <configuration name="ISentenceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ISentenceTest - 2019.06.13 at 00h 54m 33s.xml">
+      <configuration name="ISentenceTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="1001" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2859425" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32893288" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32893288" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Library/Group Containers/3L68KQB4HG.group.com.readdle.smartemail/databases/messagesData/1/23321/Sentence.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Group Containers/3L68KQB4HG.group.com.readdle.smartemail/databases/messagesData/1/23321/SentenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Group Containers/3L68KQB4HG.group.com.readdle.smartemail/databases/messagesData/1/23321/WordNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="70" column="19" lean-forward="true" selection-start-line="70" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Group Containers/3L68KQB4HG.group.com.readdle.smartemail/databases/messagesData/1/23321/EmptyNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Group Containers/3L68KQB4HG.group.com.readdle.smartemail/databases/messagesData/1/23321/PunctuationNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PunctuationNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="70" column="46" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#1359#1360#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ISentence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
+          <folding>
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmptyNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ISentenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="200" column="3" selection-start-line="200" selection-start-column="3" selection-end-line="200" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1572#1573#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+            <element signature="e#1731#1732#0" expanded="true" />
+            <element signature="e#1794#1795#0" expanded="true" />
+            <element signature="e#1842#1843#0" expanded="true" />
+            <element signature="e#1904#1905#0" expanded="true" />
+            <element signature="e#1954#1955#0" expanded="true" />
+            <element signature="e#2018#2019#0" expanded="true" />
+            <element signature="e#2228#2229#0" expanded="true" />
+            <element signature="e#2285#2286#0" expanded="true" />
+            <element signature="e#2340#2341#0" expanded="true" />
+            <element signature="e#2363#2364#0" expanded="true" />
+            <element signature="e#2801#2802#0" expanded="true" />
+            <element signature="e#2858#2859#0" expanded="true" />
+            <element signature="e#2897#2898#0" expanded="true" />
+            <element signature="e#2954#2955#0" expanded="true" />
+            <element signature="e#3112#3113#0" expanded="true" />
+            <element signature="e#3171#3172#0" expanded="true" />
+            <element signature="e#3215#3216#0" expanded="true" />
+            <element signature="e#3274#3275#0" expanded="true" />
+            <element signature="e#3318#3319#0" expanded="true" />
+            <element signature="e#3380#3381#0" expanded="true" />
+            <element signature="e#3530#3531#0" expanded="true" />
+            <element signature="e#3589#3590#0" expanded="true" />
+            <element signature="e#3633#3634#0" expanded="true" />
+            <element signature="e#3692#3693#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
