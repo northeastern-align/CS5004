@@ -53,7 +53,7 @@ public class PolynomialImplTest {
   @Test
   public void testRemoveTerm1() {
     polynomial.addTerm(2, 1);
-    assertEquals("", polynomial.removeTerm(1).toString());
+    assertEquals("0", polynomial.removeTerm(1).toString());
   }
 
   @Test
@@ -172,7 +172,7 @@ public class PolynomialImplTest {
     polynomial.removeTerm(3);
     polynomial.removeTerm(2);
     polynomial.removeTerm(1);
-    assertEquals("", polynomial.toString());
+    assertEquals("0", polynomial.toString());
   }
 
   @Test
@@ -256,7 +256,7 @@ public class PolynomialImplTest {
     polynomial.addTerm(-5, 3);
     polynomial.addTerm(-3, 2);
     polynomial.addTerm(7, 7);
-    assertEquals("", polynomial.add(polynomialToAdd2).toString());
+    assertEquals("0", polynomial.add(polynomialToAdd2).toString());
   }
 
   @Test
@@ -294,7 +294,8 @@ public class PolynomialImplTest {
   public void testPolyFromStr5() {
     PolynomialImpl polynomialFromStr = new PolynomialImpl("-24x^12 +0x^8 +15x^4 -3x^3 +5x^1");
     assertEquals("-24x^12 +15x^4 -3x^3 +5x^1", polynomialFromStr.toString());
-    assertEquals(-7, polynomialFromStr.evaluate(1), 0);
+    polynomialFromStr.removeTerm(3);
+    assertEquals("-24x^12 +15x^4 +5x^1", polynomialFromStr.toString());
   }
 
 }

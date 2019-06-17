@@ -91,6 +91,9 @@ public class PolynomialImpl implements Polynomial {
         }
       }
       else {
+        if ( output == "") {
+          output += "0";
+        }
         break;
       }
 
