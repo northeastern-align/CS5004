@@ -17,8 +17,11 @@ public class Node {
    * @param coefficient the coefficient (leading term) of the node
    * @param degree the power of the node
    */
-  public Node(int coefficient, int degree) {
+  public Node(int coefficient, int degree) throws IllegalArgumentException {
     this.coefficient = coefficient;
+    if (degree < 0) {
+      throw new IllegalArgumentException("Node needs a non-negative degree!");
+    }
     this.degree = degree;
     this.next = null;
     this.previous = null;

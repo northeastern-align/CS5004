@@ -29,7 +29,15 @@
       <change beforePath="$PROJECT_DIR$/../Assignment3/test/PawnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/test/PawnTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment3/test/QueenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/test/QueenTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment3/test/RookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/test/RookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment4.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment4.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment4/PolynomialImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment4/PolynomialImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment4/PolynomialImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment4/PolynomialImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Polynomial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polynomial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PolynomialImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolynomialImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/PolynomialImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PolynomialImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/PolynomialImplTest2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2/src/FibonacciCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/FibonacciCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2/test/FibonacciCounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/test/FibonacciCounterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2/test/TransmissionBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/test/TransmissionBoxTest.java" afterDir="false" />
@@ -51,49 +59,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PolynomialImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95">
-              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="473">
+              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
               <folding>
-                <element signature="e#5074#5075#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/PolynomialImplTest2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="228" column="28" lean-forward="true" selection-start-line="228" selection-start-column="28" selection-end-line="228" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
-                <element signature="e#1749#1750#0" expanded="true" />
-                <element signature="e#1786#1787#0" expanded="true" />
-                <element signature="e#6517#6518#0" expanded="true" />
-                <element signature="e#6573#6574#0" expanded="true" />
-                <element signature="e#7296#7297#0" expanded="true" />
-                <element signature="e#7345#7346#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/PolynomialImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="297" column="32" selection-start-line="297" selection-start-column="32" selection-end-line="297" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#6106#6107#0" expanded="true" />
+                <element signature="e#6786#6787#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,8 +75,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Polynomial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="-268">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/PolynomialImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="344" column="74" selection-start-line="344" selection-start-column="74" selection-end-line="344" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#7929#7930#0" expanded="true" />
+                <element signature="e#7964#7965#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-643">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="-76">
+              <caret line="22" column="78" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
               <folding>
                 <element signature="e#1137#1138#0" expanded="true" />
                 <element signature="e#1163#1164#0" expanded="true" />
@@ -133,6 +126,24 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/NodeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="68" column="42" lean-forward="true" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#878#879#0" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+                <element signature="e#1013#1014#0" expanded="true" />
+                <element signature="e#1905#1906#0" expanded="true" />
+                <element signature="e#1935#1936#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -144,22 +155,28 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>removetermwithn</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/src/IPolynomial.java" />
         <option value="$PROJECT_DIR$/src/Polynomial.java" />
-        <option value="$PROJECT_DIR$/src/PolynomialImpl.java" />
+        <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/test/PolynomialImplTest2.java" />
+        <option value="$PROJECT_DIR$/test/NodeTest.java" />
         <option value="$PROJECT_DIR$/test/PolynomialImplTest.java" />
+        <option value="$PROJECT_DIR$/src/PolynomialImpl.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="960" />
     <option name="y" value="23" />
     <option name="width" value="960" />
@@ -227,7 +244,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PolynomialImplTest2">
+  <component name="RunManager" selected="JUnit.PolynomialImplTest">
+    <configuration name="NodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NodeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PolynomialImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment4" />
       <option name="PACKAGE_NAME" value="" />
@@ -248,8 +274,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PolynomialImplTest2" />
         <item itemvalue="JUnit.PolynomialImplTest" />
+        <item itemvalue="JUnit.NodeTest" />
+        <item itemvalue="JUnit.PolynomialImplTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -267,42 +294,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PolynomialImplTest - 2019.06.16 at 10h 24m 20s.xml">
+    <history-entry file="PolynomialImplTest - 2019.06.16 at 23h 48m 35s.xml">
       <configuration name="PolynomialImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialImplTest - 2019.06.16 at 10h 24m 58s.xml">
+    <history-entry file="PolynomialImplTest - 2019.06.16 at 23h 49m 04s.xml">
       <configuration name="PolynomialImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialImplTest - 2019.06.16 at 10h 25m 27s.xml">
+    <history-entry file="PolynomialImplTest - 2019.06.16 at 23h 50m 16s.xml">
       <configuration name="PolynomialImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialImplTest - 2019.06.16 at 10h 25m 52s.xml">
+    <history-entry file="PolynomialImplTest - 2019.06.16 at 23h 50m 41s.xml">
       <configuration name="PolynomialImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialImplTest - 2019.06.16 at 10h 26m 27s.xml">
+    <history-entry file="PolynomialImplTest - 2019.06.16 at 23h 50m 53s.xml">
       <configuration name="PolynomialImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialImplTest - 2019.06.16 at 10h 27m 49s.xml">
+    <history-entry file="PolynomialImplTest - 2019.06.16 at 23h 53m 23s.xml">
       <configuration name="PolynomialImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialImplTest - 2019.06.16 at 10h 28m 19s.xml">
+    <history-entry file="PolynomialImplTest - 2019.06.16 at 23h 53m 58s.xml">
       <configuration name="PolynomialImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialImplTest - 2019.06.16 at 10h 28m 32s.xml">
+    <history-entry file="PolynomialImplTest - 2019.06.16 at 23h 54m 16s.xml">
       <configuration name="PolynomialImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialImplTest - 2019.06.16 at 20h 44m 25s.xml">
+    <history-entry file="PolynomialImplTest - 2019.06.16 at 23h 56m 11s.xml">
       <configuration name="PolynomialImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialImplTest2 - 2019.06.16 at 20h 46m 42s.xml">
-      <configuration name="PolynomialImplTest2" configurationId="JUnit" />
+    <history-entry file="PolynomialImplTest - 2019.06.16 at 23h 56m 38s.xml">
+      <configuration name="PolynomialImplTest" configurationId="JUnit" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="23" width="960" height="999" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10675381" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11328976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -311,14 +347,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2183021" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2183021" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296582" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3296582" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3296582" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32855567" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -342,10 +378,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/PolynomialImplTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="224" column="3" lean-forward="true" selection-start-line="224" selection-start-column="3" selection-end-line="224" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#1749#1750#0" expanded="true" />
+            <element signature="e#1786#1787#0" expanded="true" />
+            <element signature="e#6517#6518#0" expanded="true" />
+            <element signature="e#6573#6574#0" expanded="true" />
+            <element signature="e#7296#7297#0" expanded="true" />
+            <element signature="e#7345#7346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Polynomial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-268">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/PolynomialImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="344" column="74" selection-start-line="344" selection-start-column="74" selection-end-line="344" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#7929#7930#0" expanded="true" />
+            <element signature="e#7964#7965#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-643">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="-76">
+          <caret line="22" column="78" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
           <folding>
             <element signature="e#1137#1138#0" expanded="true" />
             <element signature="e#1163#1164#0" expanded="true" />
@@ -365,51 +444,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Polynomial.java">
+    <entry file="file://$PROJECT_DIR$/test/NodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="325">
+          <caret line="68" column="42" lean-forward="true" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1905#1906#0" expanded="true" />
+            <element signature="e#1935#1936#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PolynomialImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state relative-caret-position="473">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
           <folding>
-            <element signature="e#5074#5075#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/PolynomialImplTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="228" column="28" lean-forward="true" selection-start-line="228" selection-start-column="28" selection-end-line="228" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#1749#1750#0" expanded="true" />
-            <element signature="e#1786#1787#0" expanded="true" />
-            <element signature="e#6517#6518#0" expanded="true" />
-            <element signature="e#6573#6574#0" expanded="true" />
-            <element signature="e#7296#7297#0" expanded="true" />
-            <element signature="e#7345#7346#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/PolynomialImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="297" column="32" selection-start-line="297" selection-start-column="32" selection-end-line="297" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#6106#6107#0" expanded="true" />
+            <element signature="e#6786#6787#0" expanded="true" />
           </folding>
         </state>
       </provider>

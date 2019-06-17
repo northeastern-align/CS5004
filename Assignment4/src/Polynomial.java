@@ -11,7 +11,7 @@ public interface Polynomial {
    * @param power the power of the term to add
    * @return the updated Polynomial with an added term
    */
-  Polynomial addTerm(int coefficient, int power);
+  Polynomial addTerm(int coefficient, int power) throws IllegalArgumentException;
 
   /**
    * Returns the Polynomial with a specified term removed.
@@ -51,4 +51,11 @@ public interface Polynomial {
    * @return a new Polynomial object that is the combination of two polynomials
    */
   Polynomial add(Polynomial polynomial);
+
+  /**
+   * Returns the first node in a Polynomial linked list.
+   *
+   * @return the first node in the Polynomial
+   */
+  Node getStart();
 }

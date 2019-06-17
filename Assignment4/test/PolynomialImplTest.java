@@ -29,6 +29,11 @@ public class PolynomialImplTest {
   }
 
   @Test
+  public void testToStringNoTerm() {
+    assertEquals("0", polynomial.toString());
+  }
+
+  @Test
   public void testZeroDegree() {
     assertEquals(0, polynomial.getDegree());
   }
@@ -39,9 +44,15 @@ public class PolynomialImplTest {
   }
 
   @Test
-  public void testAddTerm1() {
+  public void testAddTerm1a() {
     polynomial.addTerm(2, 1);
     assertEquals("2x^1", polynomial.toString());
+  }
+
+  @Test
+  public void testAddTerm1b() {
+    polynomial.addTerm(-2, 0);
+    assertEquals("-2", polynomial.toString());
   }
 
   @Test
@@ -143,6 +154,15 @@ public class PolynomialImplTest {
     polynomial.addTerm(-3, 2);
     polynomial.addTerm(9, 2);
     assertEquals("-5x^3 +6x^2 +2x^1", polynomial.toString());
+  }
+
+  @Test
+  public void testAddTerm3c() {
+    polynomial.addTerm(2, 1);
+    polynomial.addTerm(-5, 3);
+    polynomial.addTerm(-3, 2);
+    polynomial.addTerm(-2, 0);
+    assertEquals("-5x^3 -3x^2 +2x^1 -2", polynomial.toString());
   }
 
   @Test
@@ -296,6 +316,38 @@ public class PolynomialImplTest {
     assertEquals("-24x^12 +15x^4 -3x^3 +5x^1", polynomialFromStr.toString());
     polynomialFromStr.removeTerm(3);
     assertEquals("-24x^12 +15x^4 +5x^1", polynomialFromStr.toString());
+  }
+
+  @Test
+  public void testPolyFromStr6() {
+    PolynomialImpl polynomialFromStr = new PolynomialImpl("15x^4 -2");
+    assertEquals("15x^4 -2", polynomialFromStr.toString());
+  }
+
+  @Test
+  public void testPolyFromStr7() {
+    PolynomialImpl polynomialFromStr = new PolynomialImpl("");
+    assertEquals("0", polynomialFromStr.toString());
+  }
+
+  @Test(expected = IllegalArgumentException.class)
+  public void testNegativePower() {
+    polynomial.addTerm(3, -2);
+  }
+
+  @Test(expected = IllegalArgumentException.class)
+  public void testNegativePowerFromStr() {
+    PolynomialImpl polynomialFromStr = new PolynomialImpl("-24x^12 +0x^8 -3x^3 +5x^-1");
+  }
+
+  @Test(expected = IllegalArgumentException.class)
+  public void testIncorrectFormat() {
+    PolynomialImpl polynomialFromStr = new PolynomialImpl("5x^2+3x^1 +7");
+  }
+
+  @Test(expected = IllegalArgumentException.class)
+  public void testIncorrectFormat2() {
+    PolynomialImpl polynomialFromStr = new PolynomialImpl("+-5x^2");
   }
 
 }
