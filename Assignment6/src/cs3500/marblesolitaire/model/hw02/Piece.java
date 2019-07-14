@@ -1,4 +1,4 @@
-package cs3500.marblesolitaire.hw02.model;
+package cs3500.marblesolitaire.model.hw02;
 
 /**
  * This enumerated type represents the different states or occupantcy each space on the board can

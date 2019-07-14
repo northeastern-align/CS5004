@@ -1,4 +1,4 @@
-package cs3500.marblesolitaire.hw02.model;
+package cs3500.marblesolitaire.model.hw02;
 
 /**
  * This class implements the attributes stored in the IBoard interface as a board for Marble
