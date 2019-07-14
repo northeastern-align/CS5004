@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/hw02/model/Board.java" description="   * @param row an integer representing the row of..." line="105" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9bf93db8-f777-4d13-ac97-e01c54656d1b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/AbstractPiece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/Bishop.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/Bishop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/IChessPiece.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/IChessPiece.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/Knight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/Pawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/Pawn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/Queen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/Queen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/Rook.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/production/Assignment3/Rook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/test/Assignment3/BishopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/test/Assignment3/BishopTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/test/Assignment3/KnightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/test/Assignment3/KnightTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/test/Assignment3/PawnTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/test/Assignment3/PawnTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/test/Assignment3/QueenTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/test/Assignment3/QueenTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/out/test/Assignment3/RookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/out/test/Assignment3/RookTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/src/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/src/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/src/IChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/IChessPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/src/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/src/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/src/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/src/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/test/BishopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/test/BishopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/test/KnightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/test/KnightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/test/PawnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/test/PawnTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/test/QueenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/test/QueenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/test/RookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/test/RookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/Assignment5.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/Assignment5.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/out/production/Assignment5/cs3500/marblesolitaire/model/hw02/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/out/production/Assignment5/cs3500/marblesolitaire/model/hw02/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/out/production/Assignment5/cs3500/marblesolitaire/model/hw02/HorizontalMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/out/production/Assignment5/cs3500/marblesolitaire/model/hw02/HorizontalMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/out/production/Assignment5/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/out/production/Assignment5/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/out/production/Assignment5/cs3500/marblesolitaire/model/hw02/VerticalMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/out/production/Assignment5/cs3500/marblesolitaire/model/hw02/VerticalMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/out/test/Assignment5/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/out/test/Assignment5/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/src/cs3500/marblesolitaire/model/hw02/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/src/cs3500/marblesolitaire/model/hw02/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/src/cs3500/marblesolitaire/model/hw02/HorizontalMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/src/cs3500/marblesolitaire/model/hw02/HorizontalMove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/src/cs3500/marblesolitaire/model/hw02/VerticalMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/src/cs3500/marblesolitaire/model/hw02/VerticalMove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/test/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/test/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/src/FibonacciCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/FibonacciCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/test/FibonacciCounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/test/FibonacciCounterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/test/TransmissionBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/test/TransmissionBoxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/src/ISentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/ISentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture6/src/BIG_VIEW.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture6/src/BIG_VIEW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture6/src/GUIView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture6/src/GUIView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture7/src/MongoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture7/src/MongoModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture7/src/MySQL_Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture7/src/MySQL_Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture8/src/IBoardReadOnly.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture8/src/IBoardReadOnly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture8/test/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture8/test/CalculatorTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/code 3/test/Hw03TypeChecks.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/cs3500/marblesolitaire/hw02/model/MarbleSolitaireModelImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="299" column="27" selection-start-line="299" selection-start-column="27" selection-end-line="299" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="36" selection-start-column="36" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/hw02/model/MarbleSolitaireModelImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-888">
+              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#437#444#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/hw02/model/Board.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-692">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/hw02/model/MarbleSolitaireModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-228">
+              <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/code 4/src/cs3500/lec08/SimpleCalc5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/code 4/src/cs3500/lec08/SimpleCalc6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace>game</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/ISpace.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/Space.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/HorizontalMove.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/IBoard.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/Piece.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/IRule.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/VerticalMove.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModel.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/HorizontalMove.java" />
+        <option value="$PROJECT_DIR$/test/cs3500/marblesolitaire/model/hw02/BoardTest.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/Board.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelImpl.java" />
+        <option value="$PROJECT_DIR$/test/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelImplTest.java" />
+        <option value="$PROJECT_DIR$/test/cs3500/marblesolitaire/controller/test.java" />
+        <option value="$PROJECT_DIR$/test/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImplTest.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImpl.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireController.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/hw02/controller/MarbleSolitaireControllerImpl.java" />
+        <option value="$PROJECT_DIR$/src/cs3500/marblesolitaire/hw02/controller/MarbleSolitaireController.java" />
+        <option value="$PROJECT_DIR$/test/cs3500/marblesolitaire/hw02/controller/MarbleSolitaireControllerImplTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="960" />
+    <option name="y" value="23" />
+    <option name="width" value="960" />
+    <option name="height" value="992" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Assignment6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="marblesolitaire" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="marblesolitaire" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="marblesolitaire" type="462c0819:PsiDirectoryNode" />
+              <item name="hw02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="marblesolitaire" type="462c0819:PsiDirectoryNode" />
+              <item name="hw02" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment6" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment6" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="marblesolitaire" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment6" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="marblesolitaire" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment6" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="marblesolitaire" type="462c0819:PsiDirectoryNode" />
+              <item name="hw02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment6" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="marblesolitaire" type="462c0819:PsiDirectoryNode" />
+              <item name="hw02" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/test/cs3500/marblesolitaire" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cs3500.marblesolitaire.controller" />
+      <recent name="cs3500.marblesolitaire.model.hw02" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MarbleSolitaireControllerImplTest">
+    <configuration name="BoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs3500.marblesolitaire.model.hw02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cs3500.marblesolitaire.model.hw02" />
+      <option name="MAIN_CLASS_NAME" value="cs3500.marblesolitaire.model.hw02.BoardTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarbleSolitaireControllerImplTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs3500.marblesolitaire.hw02.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cs3500.marblesolitaire.hw02.controller" />
+      <option name="MAIN_CLASS_NAME" value="cs3500.marblesolitaire.hw02.controller.MarbleSolitaireControllerImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarbleSolitaireControllerImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs3500.marblesolitaire.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cs3500.marblesolitaire.controller" />
+      <option name="MAIN_CLASS_NAME" value="cs3500.marblesolitaire.controller.MarbleSolitaireControllerImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarbleSolitaireModelImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs3500.marblesolitaire.model.hw02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cs3500.marblesolitaire.model.hw02" />
+      <option name="MAIN_CLASS_NAME" value="cs3500.marblesolitaire.model.hw02.MarbleSolitaireModelImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarbleSolitaireModelImplTest.testPartiallyPlayedContinuation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs3500.marblesolitaire.model.hw02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cs3500.marblesolitaire.model.hw02" />
+      <option name="MAIN_CLASS_NAME" value="cs3500.marblesolitaire.model.hw02.MarbleSolitaireModelImplTest" />
+      <option name="METHOD_NAME" value="testPartiallyPlayedContinuation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MarbleSolitaireControllerImplTest" />
+        <item itemvalue="JUnit.MarbleSolitaireControllerImplTest (1)" />
+        <item itemvalue="JUnit.BoardTest" />
+        <item itemvalue="JUnit.MarbleSolitaireModelImplTest" />
+        <item itemvalue="JUnit.MarbleSolitaireModelImplTest.testPartiallyPlayedContinuation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bf93db8-f777-4d13-ac97-e01c54656d1b" name="Default Changelist" comment="" />
+      <created>1561431010321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561431010321</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MarbleSolitaireControllerImplTest - 2019.07.14 at 00h 11m 18s.xml">
+      <configuration name="MarbleSolitaireControllerImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarbleSolitaireControllerImplTest - 2019.07.14 at 00h 12m 43s.xml">
+      <configuration name="MarbleSolitaireControllerImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarbleSolitaireControllerImplTest - 2019.07.14 at 00h 14m 06s.xml">
+      <configuration name="MarbleSolitaireControllerImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarbleSolitaireControllerImplTest - 2019.07.14 at 00h 32m 34s.xml">
+      <configuration name="MarbleSolitaireControllerImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarbleSolitaireControllerImplTest - 2019.07.14 at 00h 34m 57s.xml">
+      <configuration name="MarbleSolitaireControllerImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarbleSolitaireControllerImplTest - 2019.07.14 at 00h 36m 44s.xml">
+      <configuration name="MarbleSolitaireControllerImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarbleSolitaireControllerImplTest - 2019.07.14 at 00h 48m 48s.xml">
+      <configuration name="MarbleSolitaireControllerImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarbleSolitaireControllerImplTest_(1) - 2019.07.14 at 00h 52m 58s.xml">
+      <configuration name="MarbleSolitaireControllerImplTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarbleSolitaireControllerImplTest_(1) - 2019.07.14 at 00h 53m 49s.xml">
+      <configuration name="MarbleSolitaireControllerImplTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarbleSolitaireControllerImplTest - 2019.07.14 at 00h 56m 05s.xml">
+      <configuration name="MarbleSolitaireControllerImplTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="960" y="23" width="960" height="992" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5272331" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3511111" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32777777" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/IClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/Class.java" />
+    <entry file="file://$USER_HOME$/Downloads/code 2/test/Hw02TypeChecks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/Space.java" />
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/ISpace.java" />
+    <entry file="file://$PROJECT_DIR$/src/peg_puzzle.java" />
+    <entry file="file://$PROJECT_DIR$/test/cs3500/marblesolitaire/hw02/model/BoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/hw02/model/VerticalMove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/hw02/model/IBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/hw02/model/IRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/hw02/model/HorizontalMove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/hw02/model/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/code 4/src/cs3500/lec08/SimpleCalc1.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/code 4/src/cs3500/lec08/SimpleCalc3.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/code 4/src/cs3500/lec08/SimpleCalc2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/code 4/src/cs3500/lec08/CalcController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/code 4/src/cs3500/lec08/SimpleCalc4.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/code 3/test/Hw03TypeChecks.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/code 4/src/cs3500/lec08/SimpleCalc5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/code 4/src/cs3500/lec08/SimpleCalc6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cs3500/marblesolitaire/controller/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cs3500/marblesolitaire/hw02/model/MarbleSolitaireModelImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="299" column="27" selection-start-line="299" selection-start-column="27" selection-end-line="299" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/hw02/model/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-692">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/hw02/model/MarbleSolitaireModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/hw02/model/MarbleSolitaireModelImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-888">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#437#444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
