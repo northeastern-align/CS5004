@@ -1,0 +1,116 @@
+
+/////// Updates on 7/26 ////////////
+
+
+I don't think the "appear time" and "disappear time" should be inferred by the aniamtions, i think
+it's specified in the constructor, or there could be a function called like setAppearTime().
+
+^^ The above has been fixed but we'll need to set up a rule that they can't try to make an animation
+   outside of that time frame.
+
+
+We should probably do something with song's note below, we might want to make a few methods in the model
+for "get all animated shapes" or someting.
+
+8. Should I provide other methods to output the information in some ways besides outputting a text description?
+
+Yes. Your method for outputting a text description may be moved to the view in future and even though you keep using
+it in the model anyway, it is still not an efficient way to communicate with other components of your program, so you
+may need to provide other methods for the use of the future controllers/views to let them retrieve data from your model
+directly and easily.
+
+Especially, here is a public method you may also consider putting into your model interface for future use: getShapesAt(int tick).
+It will return the shapes on the canvas at the given tick. However, you don't have to have it; everything is up to your own
+specific design. If you do want to use it, note that you don't need to figure out its implementation details in this assignment
+since you may not have enough information to finish it well, so you may just leave its implementation empty for now
+
+
+
+
+
+
+/////// How the program works //////////
+
+Three main components to the program:
+
+*Shape*
+
+This represents an individual shape the first time it has been created.  We then create specific
+classes that implement IShape such as rectangle, ellipse, triangle, to represent the possible shapes
+for the animation.
+
+Any animations are separate from the shape-- the shapes are very basic and could be reused in other
+applications that represent shapes.
+
+*Motion*
+
+A motion represents one of the three motion types that we can have for this program, move, scale,
+and change color.  Motions are independant from shapes, any shape could have any of the 3 motions.
+For example, if you have a motion that is move right 20 spaces in 10 seconds, you could then give
+all shapes that motion.
+
+*AnimatedShape*
+
+This is the part of the assignment that needs the most work. An animated shape represents an individual
+shape (Such as "Rectangle1" not all Rectangles), and has a list of all the motion objects that happen
+to that shape. We are able to sort these in order if we want, but the issue is that if we do all the
+sorting on the animated shape, we'd end up with an ouput like...
+
+R1 moves t=0 to t=50
+R2 moves t=50 to t=100
+C1 moves t=0 to t=25
+
+But the issue is that we need to have these intertwined in the final string output, so I want to do the
+sorting in the model.
+
+*AnimationModel*
+
+The model has quite a few functions.
+
+addShape: Creates a shape based on the users input.  This is how a shape is "intialized" so to speak.
+
+addScaleMotion
+addMoveMotion
+addChangeColor Motion: These are 3 functions to create different motion objects for a specific shape.
+                       Ideally this would be an "addMotion" function, but I haven't figured out how
+                       to do that yet because addChangeColor takes in different parameters than
+
+removeShape: I haven't done much with this yet, it's not actually in the assignment but vido mentioned
+             it in class, maybe we include it? But idk if we'd have to remove the AnimatedShape too.
+
+
+/////// What's left to do ///////
+
+The AnimatedShape class is still pretty new and needs some work.  Based on what Vido said in class
+I think we need it, but I haven't been able to figure out how to sort the animations by
+order of time when we have this:
+
+Rectangle 1:
+             Motion1
+             Motion2
+             Motion3
+
+Circle 1:
+            Motion1
+            Motion2
+            Motion3
+
+They're stored in the model in a HashMat like <ShapeID, animatedShape> so you when you print that
+it's going to print out the shape ID with ALL of the animated shapes.  Maybe we can create a single
+list, add all of the animated shape values to it, and then sort that?
+
+- Figure out how to get the appears at and disappears at time to print in the shape.toString()
+
+- Make a list of all of the valid requirements for moving a shape and create rules (Probably IRules)
+
+- See if it's possible to get the from information from the previous place the shape is so the
+user doesn't have to get their "from" correct and we don't have to test for it.
+
+- Set max and min limit on x, y, w, h, r, g, b if necessary
+
+- Set it so that a shape can not be doing the same type of motion during the same time frame
+ex. can't move left from t = 0 to t = 50 and move right from t = 20 to t = 60.
+
+- Create classes for 3-5 more shapes, or discuss the idea of using a series of points and only one
+shape class.
+
