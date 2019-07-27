@@ -3,6 +3,11 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.TreeMap;
+
+/**
+ * JUnit test class for ChangeColor.
+ */
 public class ChangeColorTest {
 
   private ChangeColor CCR;
@@ -11,15 +16,22 @@ public class ChangeColorTest {
   private IShape rectangle;
   private IShape triangle;
   private IShape circle;
+  private AAnimatedShape animatedRectangle;
+  private AAnimatedShape animatedEllipse;
+  private AAnimatedShape animatedTriangle;
+  private TreeMap<IMotion, String> motions = new TreeMap<>();
 
   @Before
   public void setup() {
     rectangle = new Rectangle(0, 0, 5, 5, 255, 255, 255);
+    animatedRectangle = new AnimatedRectangle(rectangle, 10,20);
     triangle = new Triangle(0, 0, 5, 5, 255, 255, 255);
+    animatedTriangle = new AnimatedTriangle(triangle, 0, 45);
     circle = new Ellipse(0, 0, 5, 5, 255, 255, 255);
-    CCR = new ChangeColor(rectangle, 10, 20, 5, 255, 15);
-    CCT = new ChangeColor(triangle, 0, 45, 0, 0, 0);
-    CCC = new ChangeColor(circle, 33, 44, 255, 255, 0);
+    animatedEllipse = new AnimatedEllipse(circle, 33,44);
+    CCR = new ChangeColor(motions, animatedRectangle,10, 20, 5, 255, 15);
+    CCT = new ChangeColor(motions, animatedTriangle,0, 45, 0, 0, 0);
+    CCC = new ChangeColor(motions, animatedEllipse, 33, 44, 255, 255, 0);
   }
 
   @Test
@@ -39,27 +51,27 @@ public class ChangeColorTest {
 
   @Test (expected = IllegalArgumentException.class)
   public void illegalChangeR() {
-    ChangeColor newTest = new ChangeColor(rectangle, 0, 10, 255, 255, 255);
+    ChangeColor newTest = new ChangeColor(motions, animatedRectangle, 0, 10, 255, 255, 255);
   }
 
   @Test (expected = IllegalArgumentException.class)
   public void illegalChangeT() {
-    ChangeColor newTest = new ChangeColor(triangle, 0, 10, -1, 255, 255);
+    ChangeColor newTest = new ChangeColor(motions, animatedTriangle, 0, 10, -1, 255, 255);
   }
 
   @Test (expected = IllegalArgumentException.class)
   public void illegalChangeC() {
-    ChangeColor newTest = new ChangeColor(circle, 0, 10, 256, 255, 255);
+    ChangeColor newTest = new ChangeColor(motions, animatedEllipse, 0, 10, 256, 255, 255);
   }
 
   @Test (expected = IllegalArgumentException.class)
   public void illegalTime1() {
-    ChangeColor newTest = new ChangeColor(circle, 0, 0, 100, 255, 255);
+    ChangeColor newTest = new ChangeColor(motions, animatedEllipse, 0, 0, 100, 255, 255);
   }
 
   @Test (expected = IllegalArgumentException.class)
   public void illegalTime2() {
-    ChangeColor newTest = new ChangeColor(circle, -1, 0, 100, 255, 255);
+    ChangeColor newTest = new ChangeColor(motions, animatedEllipse, -1, 0, 100, 255, 255);
   }
 
 }

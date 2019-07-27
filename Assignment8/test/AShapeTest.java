@@ -3,6 +3,9 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+/**
+ * JUnit test class for AShape.
+ */
 public class AShapeTest {
 
   private AShape rectangle;

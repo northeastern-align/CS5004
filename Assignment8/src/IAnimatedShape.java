@@ -8,7 +8,7 @@ public interface IAnimatedShape {
    * Takes in an assigned motion and adds that motion to a created ArrayList of motions.
    *
    * @param motion the animation motion to be initialized, stored in an ArrayList with other
-   *        motions
+   *               motions
    */
   void addAnimation(IMotion motion);
 

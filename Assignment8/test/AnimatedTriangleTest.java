@@ -3,6 +3,9 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+/**
+ * JUnit test class for AnimatedTriangle.
+ */
 public class AnimatedTriangleTest {
 
   private IShape triangle1;

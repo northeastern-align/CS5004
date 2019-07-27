@@ -4,6 +4,7 @@
  * the interface IShape, which contains several getter functions for a coordinate location, width/
  * height, and RGB color values.
  */
+
 public abstract class AShape implements IShape {
 
   protected final int x;
@@ -25,20 +26,21 @@ public abstract class AShape implements IShape {
    * @param r the red intensity for the shape's color
    * @param g the green intensity for the shape's color
    * @param b the blue intensity for the shape's color
-   * @throws IllegalArgumentException if the width/height of the shape are a non-positive integer
-   *         or the RGB values are outside of an acceptable range.
+   * @throws IllegalArgumentException if the width/height of the shape are a non-positive integer or
+   *                                  the RGB values are outside of an acceptable range.
    */
-  protected AShape(int x, int y, int w, int h, int r, int g, int b) throws IllegalArgumentException {
+  protected AShape(int x, int y, int w, int h, int r, int g, int b)
+          throws IllegalArgumentException {
 
-    if ( w <= 0 || h <= 0 ) {
+    if (w <= 0 || h <= 0) {
       throw new IllegalArgumentException("Width and height must be positive!");
     }
 
-    if ( r < 0 || g < 0 || b < 0 ) {
+    if (r < 0 || g < 0 || b < 0) {
       throw new IllegalArgumentException("RGB values must be positive!");
     }
 
-    if ( r > 255 || g > 255 || b > 255 ) {
+    if (r > 255 || g > 255 || b > 255) {
       throw new IllegalArgumentException("RGB values must be less than 256!");
     }
 

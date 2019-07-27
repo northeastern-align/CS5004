@@ -3,6 +3,9 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+/**
+ * JUnit test class for Ellipse.
+ */
 public class EllipseTest {
 
   private Ellipse ellipse1;

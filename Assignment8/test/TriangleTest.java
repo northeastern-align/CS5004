@@ -2,7 +2,9 @@ import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
-
+/**
+ * JUnit test class for Triangle.
+ */
 public class TriangleTest {
 
   private Triangle triangle1;

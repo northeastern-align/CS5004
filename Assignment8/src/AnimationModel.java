@@ -1,16 +1,46 @@
+
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.TreeMap;
 
+/**
+ * This interface represents the AnimationModel methods offered. The model implements the actual
+ * functionality of the Animation assignment.
+ */
 public class AnimationModel implements IAnimationModel {
-  private java.util.Map<String, IShape> shapes = new HashMap<>();
-  private java.util.Map<String, AAnimatedShape> animatedShapes = new HashMap<>();
-  private java.util.TreeMap<IMotion, String> motions = new TreeMap<>();
-  private java.util.TreeMap<IMotion, String> sortedMotions = new TreeMap<>();
+  private Map<String, IShape> shapes = new HashMap<>();
+  private Map<String, AAnimatedShape> animatedShapes = new HashMap<>();
+  private TreeMap<IMotion, String> motions = new TreeMap<>();
 
+  /**
+   * Creates a shape to add to the animation model.
+   *
+   * @param id   a String identification assigned to the shape
+   * @param type the type of shape created
+   * @param t1   the start (appearance) time of the shape
+   * @param t2   the end (disappearance) time of the shape
+   * @param x    the x-coordinate of a reference point for the shape
+   * @param y    the y-coordinate of a reference points for the shape
+   * @param w    the width of the shape
+   * @param h    the height of the shape
+   * @param r    the red-balance of the shape's color
+   * @param g    the green-balance of the shape's color
+   * @param b    the blue-balance of the shape's color
+   * @throws IllegalArgumentException is the shape is not a valid ShapeType or if time is invalid
+   */
   @Override
   public void addShape(String id, ShapeType type, int t1, int t2, int x, int y, int w, int h,
                        int r, int g, int b) throws IllegalArgumentException {
+
+    if ( t1 < 0 || t2 < 0 ) {
+      throw new IllegalArgumentException("Time can't be a negative value!");
+    }
+
+    if ( t2 <= t1 ) {
+      throw new IllegalArgumentException("End time must be later than start time!");
+    }
+
     IShape shape;
     AAnimatedShape animatedShape;
     switch (type) {
@@ -39,19 +69,56 @@ public class AnimationModel implements IAnimationModel {
     }
   }
 
+  /**
+   * Creates a Scale animation and assigns to a shape.
+   *
+   * @param id a String identification used to identify the shape to apply the animation to
+   * @param t1 the starting time of the animation
+   * @param t2 the ending time of the animation
+   * @param w2 the ending width after the scaling animation
+   * @param h2 the ending height after the scaling animation
+   * @throws IllegalArgumentException if there is already a scale motion during that time frame, or
+   *                                  the shape id is not an existing shape.
+   */
   @Override
-  public void addScaleMotion(String id, int t1, int t2, int w2, int h2) throws IllegalArgumentException {
-    // RULES NEEDED:
-    // t1 must be larger than or equal to animatedShape.appearTime
-    // t2 must be less than or equal to animatedShape.disapperTime
-    // t1 to t2 can't overlap with motion.t1 and motion.t2
-
-    // t = 5 t = 20
-    // t = 15 and t = 21
-
+  public void addScaleMotion(String id, int t1, int t2, int w2, int h2)
+          throws IllegalArgumentException {
     for (IMotion key : motions.keySet()) {
       if (motions.get(key) == id) {
-        if (!ExistingMove.validMove(key, t1, t2)){
+        if (!ExistingMove.validMove(key, t1, t2, MotionType.SCALE)) {
+          throw new IllegalArgumentException("Scale already exits at that time!");
+        }
+      }
+    }
+
+    if (!shapes.containsKey(id)) {
+      throw new IllegalArgumentException(id + " is not a valid shape!");
+    }
+
+    IMotion motion = new Scale(motions, animatedShapes.get(id), t1, t2, w2, h2);
+    motions.put(motion, id);
+    animatedShapes.get(id).addAnimation(motion);
+  }
+
+  /**
+   * Creates a Move animation and assigns to a shape.
+   *
+   * @param id a String identification used to identify the shape to apply the animation to
+   * @param t1 the starting time of the animation
+   * @param t2 the ending time of the animation
+   * @param x2 the ending x-coordinate of the reference point for the shape
+   * @param y2 the ending y-coordinate of the reference point for the shape
+   * @throws IllegalArgumentException if there is already a move motion during that time frame, of
+   *                                  if the shape id is not an existing shape.
+   */
+  @Override
+  public void addMoveMotion(String id, int t1, int t2, int x2, int y2)
+          throws IllegalArgumentException {
+
+    // Checks every motion against the rules
+    for (IMotion key : motions.keySet()) {
+      if (motions.get(key) == id) {
+        if (!ExistingMove.validMove(key, t1, t2, MotionType.MOVE)) {
           throw new IllegalArgumentException("Move already exits at that time!");
         }
       }
@@ -60,46 +127,55 @@ public class AnimationModel implements IAnimationModel {
     if (!shapes.containsKey(id)) {
       throw new IllegalArgumentException(id + " is not a valid shape!");
     }
-    IMotion motion = new Scale(shapes.get(id), t1, t2, w2, h2);
-    motions.put(motion, id);
-    animatedShapes.get(id).addAnimation(motion);
-  }
 
-  @Override
-  public void addMoveMotion(String id, int t1, int t2, int x2, int y2)
-          throws IllegalArgumentException {
-    if (!shapes.containsKey(id)) {
-      throw new IllegalArgumentException(id + " is not a valid shape!");
-    }
-    IMotion motion = new Move(shapes.get(id), t1, t2, x2, y2);
+    IMotion motion = new Move(motions, animatedShapes.get(id), t1, t2, x2, y2);
     motions.put(motion, id);
     animatedShapes.get(id).addAnimation(motion);
 
   }
 
+  /**
+   * Creates a ColorChange animation and assigns it ot a shape.
+   *
+   * @param id a String identification used to identify the shape to apply the animation to
+   * @param t1 the starting time of the animation
+   * @param t2 the ending time of the animation
+   * @param r2 the ending red intensity of the shape's color
+   * @param g2 the ending green intensity of the shape's color
+   * @param b2 the ending blue intensity of the shape's color
+   * @throws IllegalArgumentException if there is already a color change motion during that time
+   *                                  frame of the shape id is not an existing shape
+   */
   @Override
   public void addColorChangeMotion(String id, int t1, int t2, int r2, int g2, int b2)
           throws IllegalArgumentException {
     if (!shapes.containsKey(id)) {
       throw new IllegalArgumentException(id + " is not a valid shape!");
     }
-    IMotion motion = new ChangeColor(shapes.get(id), t1, t2, r2, g2, b2);
+
+    // Checks every motion against the rules
+    for (IMotion key : motions.keySet()) {
+      if (motions.get(key) == id) {
+        if (!ExistingMove.validMove(key, t1, t2, MotionType.COLOR)) {
+          throw new IllegalArgumentException("Color Change already exits at that time!");
+        }
+      }
+    }
+
+    IMotion motion = new ChangeColor(motions, animatedShapes.get(id), t1, t2, r2, g2, b2);
     motions.put(motion, id);
+
     animatedShapes.get(id).addAnimation(motion);
 
   }
 
-  @Override
-  public void removeShape(String id) throws IllegalArgumentException {
-    if (!shapes.containsKey(id)) {
-      throw new IllegalArgumentException(id + " does not exist!");
-    }
-    shapes.remove(id);
-  }
-
+  /**
+   * Prints out the toString methods of the shapes and animations.
+   *
+   * @return a string listing out the shapes and animations
+   */
   @Override
   public String getState() {
-    sortedMotions.putAll(motions);
 
     String output = "Shapes:\n";
 
@@ -108,13 +184,21 @@ public class AnimationModel implements IAnimationModel {
       output += animatedShapes.get(key).toString() + "\n";
     }
 
-    for (IMotion key : sortedMotions.keySet()) {
-      output += "Shape " + sortedMotions.get(key) + " " + key + "\n";
+    for (Map.Entry<IMotion, String> entry : motions.entrySet()) {
+      output += "Shape " + entry.getValue() + " " + entry.getKey() + "\n";
     }
 
     return output;
+
   }
 
+  /**
+   * Returns the state of the AnimatedShape at a particular frame, interpolated given the start and
+   * stop time of the animation. NOT CURRENTLY ACTIVE
+   *
+   * @param frame the particular frame to view the status of the animation at
+   * @return a shape representing the shape's characteristics at that particular frame
+   */
   @Override
   public List<IShape> getShapesAtFrame(int frame) {
     // This is tricky but will be needed for the animation.  In this we'll need to return a list

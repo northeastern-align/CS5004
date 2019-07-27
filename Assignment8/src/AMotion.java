@@ -10,25 +10,16 @@ public abstract class AMotion implements IMotion, Comparable<AMotion> {
   protected int endTime;
 
   /**
-   * Constructor for AMotion abstract class. Takes in a start time, end time (integers), and
-   * a motionType. This constructor is used by the Move, Scale, and ChangeColor classes.
+   * Constructor for AMotion abstract class. Takes in a start time, end time (integers), and a
+   * motionType. This constructor is used by the Move, Scale, and ChangeColor classes.
    *
-   * @param t1 the start time of the animation
-   * @param t2 the end time of the animation
-   * @param motionType the type of animation (Move, Scale, ChangeColor) to take place
-   * @throws IllegalArgumentException if the provides time are negative or the start time is after
-   *         the end times.
+   * @param t1         the start time of the animation.
+   * @param t2         the end time of the animation.
+   * @param motionType the type of animation (Move, Scale, ChangeColor) to take place.
+   * @throws IllegalArgumentException if the provides time are negative or the start time is after.
+   *                                  the end times.
    */
-  protected AMotion(int t1, int t2, MotionType motionType) throws IllegalArgumentException {
-
-   if ( t1 >= t2 ) {
-     throw new IllegalArgumentException("Time 2 must be after time 1!");
-   }
-
-   if ( t1 < 0 ) {
-     throw new IllegalArgumentException("Time can't be negative!");
-   }
-
+  protected AMotion(int t1, int t2, MotionType motionType) {
     this.startTime = t1;
     this.endTime = t2;
     this.motionType = motionType;
@@ -37,7 +28,7 @@ public abstract class AMotion implements IMotion, Comparable<AMotion> {
   /**
    * A getter that returns the start time of a motion.
    *
-   * @return the start time of a motion
+   * @return the start time of a motion.
    */
   @Override
   public int getStartTime() {
@@ -47,7 +38,7 @@ public abstract class AMotion implements IMotion, Comparable<AMotion> {
   /**
    * A getter that returns the end time of a motion.
    *
-   * @return the end time of a motion
+   * @return the end time of a motion.
    */
   @Override
   public int getEndTime() {
@@ -58,8 +49,8 @@ public abstract class AMotion implements IMotion, Comparable<AMotion> {
    * Using the Comparable, this function compares the start time of two motions to ultimately help
    * determine the order motions should take place.
    *
-   * @param o a second AMotion object to be compared to
-   * @return an integer representing the order the two motions should be sorted in
+   * @param o a second AMotion object to be compared to.
+   * @return an integer representing the order the two motions should be sorted in.
    */
   @Override
   public int compareTo(AMotion o) {
@@ -74,6 +65,16 @@ public abstract class AMotion implements IMotion, Comparable<AMotion> {
     }
 
     return difference;
+  }
+
+  /**
+   * A getter tha returns the motion type.
+   *
+   * @return the motion type of the motion.
+   */
+  @Override
+  public MotionType getMotionType() {
+    return this.motionType;
   }
 
 }

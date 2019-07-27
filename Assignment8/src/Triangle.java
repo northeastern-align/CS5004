@@ -1,6 +1,6 @@
 /**
- * This class represents the Triangle shape type. This extends from the abstract class AShape.
- * This class contains one constructor that utilizes a super function, which takes in an x and y
+ * This class represents the Triangle shape type. This extends from the abstract class AShape. This
+ * class contains one constructor that utilizes a super function, which takes in an x and y
  * coordinate, a width/height, and RGB color values. This class also contains a toString method to
  * print out the associated attributes of the shape, including the type, the reference coordinate
  * location, the width/height, and RGB color values.
@@ -14,7 +14,7 @@ public class Triangle extends AShape {
    * A toString method to print out a representation of the created shape.
    *
    * @return a string value that includes the type of shape, the reference coordinate, the width/
-   *         height, and the RGB color values
+   * height, and the RGB color values
    */
   @Override
   public String toString() {

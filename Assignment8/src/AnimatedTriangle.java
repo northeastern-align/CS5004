@@ -12,8 +12,8 @@ public class AnimatedTriangle extends AAnimatedShape {
    * AAnimatedShape.
    *
    * @param shape the shape to be animated
-   * @param t1 the animation start (appearance) time
-   * @param t2 the animation end (disappearance) time
+   * @param t1    the animation start (appearance) time
+   * @param t2    the animation end (disappearance) time
    */
   public AnimatedTriangle(IShape shape, int t1, int t2) {
     super(shape, t1, t2);
@@ -28,9 +28,9 @@ public class AnimatedTriangle extends AAnimatedShape {
   @Override
   public String toString() {
     return "Type: triangle\nCorner: (" + shape.getX() + ", " + shape.getY() + "), Width: "
-        + shape.getW() + ", Height: " + shape.getH() + ", Color: (" + shape.getR() + ", "
-        + shape.getG() + ", " + shape.getB() + ")\nAppears at t=" + appearTime
-        + "\nDisappears at t=" + disappearTime + "\n";
+            + shape.getW() + ", Height: " + shape.getH() + ", Color: (" + shape.getR() + ", "
+            + shape.getG() + ", " + shape.getB() + ")\nAppears at t=" + appearTime
+            + "\nDisappears at t=" + disappearTime + "\n";
   }
 
 }

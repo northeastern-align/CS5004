@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0c667ef-d9c7-4860-bec5-31b89713db80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/AMotionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/AnimatedTriangleTest.java" afterDir="false" />
+    <list default="true" id="1844e905-4748-405f-9acb-dfb7acd384e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/.idea/workspace.xml" afterDir="false" />
@@ -79,10 +77,68 @@
       <change beforePath="$PROJECT_DIR$/../Assignment7/src/cs3500/marblesolitaire/model/hw02/VerticalMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment7/src/cs3500/marblesolitaire/model/hw02/VerticalMove.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment7/src/cs3500/marblesolitaire/model/hw04/AbstractBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment7/src/cs3500/marblesolitaire/model/hw04/AbstractBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment7/src/cs3500/marblesolitaire/model/hw04/EuropeanBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment7/src/cs3500/marblesolitaire/model/hw04/EuropeanBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment7/src/cs3500/marblesolitaire/model/hw04/EuropeanSolitaireModelImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment7/test/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment7/test/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment7/test/cs3500/marblesolitaire/model/hw02/BoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment7/test/cs3500/marblesolitaire/model/hw02/BoardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment7/test/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment7/test/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/AAnimatedShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/AAnimatedShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/AMotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/AMotion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/AShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/AShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/AnimationModel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/AnimationModel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/AnimationModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/AnimationModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/ChangeColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/ChangeColor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/Ellipse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/Ellipse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/ExistingMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/ExistingMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/IAnimationModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/IAnimationModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/IMotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/IMotion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/META-INF/Assignment8.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/Move.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/Move.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/Scale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/Scale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/AMotionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/AMotionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/AShapeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/AShapeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/AnimatedEllipseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/AnimatedEllipseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/AnimatedRectangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/AnimatedRectangleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/AnimatedTriangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/AnimatedTriangleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/ChangeColorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/ChangeColorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/EllipseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/EllipseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/ModelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/ModelTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/MoveTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/MoveTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/RectangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/RectangleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/ScaleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/ScaleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/TriangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/TriangleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AAnimatedShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAnimatedShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AMotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AMotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimatedEllipse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimatedEllipse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimatedRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimatedRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimatedTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimatedTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimationModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimationModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChangeColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChangeColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ellipse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ellipse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExistingMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExistingMove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IAnimatedShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IAnimatedShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IAnimationModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IAnimationModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IMotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IMotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MotionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MotionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Scale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/AMotionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/AShapeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/AnimatedEllipseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/AnimatedRectangleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/AnimatedTriangleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ChangeColorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/EllipseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ModelTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/MoveTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/RectangleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ScaleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TriangleTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2/src/FibonacciCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/FibonacciCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2/test/FibonacciCounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/test/FibonacciCounterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2/test/TransmissionBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/test/TransmissionBoxTest.java" afterDir="false" />
@@ -107,15 +163,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Move.java">
+        <entry file="file://$PROJECT_DIR$/test/ModelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="702">
+              <caret line="368" column="1" lean-forward="true" selection-start-line="368" selection-start-column="1" selection-end-line="368" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IAnimationModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-156">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AnimationModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -123,145 +198,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/MoveTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1123#1124#0" expanded="true" />
-                <element signature="e#1189#1190#0" expanded="true" />
-                <element signature="e#1208#1209#0" expanded="true" />
-                <element signature="e#1264#1265#0" expanded="true" />
-                <element signature="e#1349#1350#0" expanded="true" />
-                <element signature="e#1404#1405#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/TriangleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AnimatedEllipse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/ChangeColorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="61" column="52" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1663#1664#0" expanded="true" />
-                <element signature="e#1738#1739#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AMotion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExistingMove.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MotionType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Scale.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="91" selection-start-line="32" selection-start-column="91" selection-end-line="32" selection-end-column="91" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/ScaleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1069#1070#0" expanded="true" />
-                <element signature="e#1127#1128#0" expanded="true" />
-                <element signature="e#1231#1232#0" expanded="true" />
-                <element signature="e#1289#1290#0" expanded="true" />
-                <element signature="e#1378#1379#0" expanded="true" />
-                <element signature="e#1437#1438#0" expanded="true" />
-                <element signature="e#1514#1515#0" expanded="true" />
-                <element signature="e#1568#1569#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="JUnit4 Test Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>getX</find>
-      <find>sorted</find>
-      <find>compare</find>
-      <find>Ellipse</find>
-      <find>ellipse</find>
-      <find>&quot;</find>
-      <find>AnimatedEllipse</find>
-      <find>Center</find>
-      <find>Rectangle</find>
-      <find>rectangle</find>
-      <find>ChangeColor</find>
-      <find>move</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>Rectangle</replace>
-      <replace>IShape</replace>
-      <replace>Corner</replace>
-      <replace>triangle</replace>
-      <replace>Move</replace>
-      <replace>scale</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -269,46 +212,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Model.java" />
         <option value="$PROJECT_DIR$/test/ModelTest.java" />
-        <option value="$PROJECT_DIR$/src/AMotion.java" />
-        <option value="$PROJECT_DIR$/src/Move.java" />
-        <option value="$PROJECT_DIR$/src/Ellipse.java" />
-        <option value="$PROJECT_DIR$/src/Rectangle.java" />
-        <option value="$PROJECT_DIR$/src/Triangle.java" />
-        <option value="$PROJECT_DIR$/src/IAnimatedShape.java" />
-        <option value="$PROJECT_DIR$/src/ChangeColor.java" />
-        <option value="$PROJECT_DIR$/src/IAnimationModel.java" />
-        <option value="$PROJECT_DIR$/src/IMotion.java" />
-        <option value="$PROJECT_DIR$/src/IShape.java" />
-        <option value="$PROJECT_DIR$/src/AShape.java" />
-        <option value="$PROJECT_DIR$/src/MotionType.java" />
-        <option value="$PROJECT_DIR$/src/ShapeType.java" />
-        <option value="$PROJECT_DIR$/src/AAnimatedShape.java" />
-        <option value="$PROJECT_DIR$/src/ExistingMove.java" />
-        <option value="$PROJECT_DIR$/src/AnimatedEllipse.java" />
-        <option value="$PROJECT_DIR$/src/AnimatedTriangle.java" />
-        <option value="$PROJECT_DIR$/src/AnimatedRectangle.java" />
         <option value="$PROJECT_DIR$/src/AnimationModel.java" />
-        <option value="$PROJECT_DIR$/test/AMotionTest.java" />
-        <option value="$PROJECT_DIR$/test/AShapeTest.java" />
-        <option value="$PROJECT_DIR$/test/EllipseTest.java" />
-        <option value="$PROJECT_DIR$/test/AnimatedEllipseTest.java" />
-        <option value="$PROJECT_DIR$/test/RectangleTest.java" />
-        <option value="$PROJECT_DIR$/test/TriangleTest.java" />
-        <option value="$PROJECT_DIR$/test/AnimatedRectangleTest.java" />
-        <option value="$PROJECT_DIR$/test/AnimatedTriangleTest.java" />
-        <option value="$PROJECT_DIR$/src/Scale.java" />
-        <option value="$PROJECT_DIR$/test/ScaleTest.java" />
-        <option value="$PROJECT_DIR$/test/MoveTest.java" />
-        <option value="$PROJECT_DIR$/test/ChangeColorTest.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
       </list>
     </option>
   </component>
@@ -350,22 +255,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -379,47 +277,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ChangeColorTest">
-    <configuration name="ChangeColorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="ModelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment8" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ChangeColorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment8" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MoveTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RectangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment8" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RectangleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScaleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment8" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ScaleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment8" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TriangleTest" />
+      <option name="MAIN_CLASS_NAME" value="ModelTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -427,11 +289,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ChangeColorTest" />
-        <item itemvalue="JUnit.MoveTest" />
-        <item itemvalue="JUnit.ScaleTest" />
-        <item itemvalue="JUnit.RectangleTest" />
-        <item itemvalue="JUnit.TriangleTest" />
+        <item itemvalue="JUnit.ModelTest" />
       </list>
     </recent_temporary>
   </component>
@@ -440,420 +298,181 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f0c667ef-d9c7-4860-bec5-31b89713db80" name="Default Changelist" comment="" />
-      <created>1564110159760</created>
+      <changelist id="1844e905-4748-405f-9acb-dfb7acd384e9" name="Default Changelist" comment="" />
+      <created>1564253146641</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564110159760</updated>
+      <updated>1564253146641</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MoveTest - 2019.07.27 at 09h 01m 04s.xml">
-      <configuration name="MoveTest" configurationId="JUnit" />
+    <history-entry file="ModelTest - 2019.07.27 at 14h 51m 47s.xml">
+      <configuration name="ModelTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoveTest - 2019.07.27 at 09h 01m 28s.xml">
-      <configuration name="MoveTest" configurationId="JUnit" />
+    <history-entry file="ModelTest - 2019.07.27 at 14h 52m 53s.xml">
+      <configuration name="ModelTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoveTest - 2019.07.27 at 09h 02m 30s.xml">
-      <configuration name="MoveTest" configurationId="JUnit" />
+    <history-entry file="ModelTest - 2019.07.27 at 14h 54m 24s.xml">
+      <configuration name="ModelTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoveTest - 2019.07.27 at 09h 02m 51s.xml">
-      <configuration name="MoveTest" configurationId="JUnit" />
+    <history-entry file="ModelTest - 2019.07.27 at 14h 55m 48s.xml">
+      <configuration name="ModelTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoveTest - 2019.07.27 at 09h 03m 10s.xml">
-      <configuration name="MoveTest" configurationId="JUnit" />
+    <history-entry file="ModelTest - 2019.07.27 at 14h 57m 04s.xml">
+      <configuration name="ModelTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScaleTest - 2019.07.27 at 09h 07m 24s.xml">
-      <configuration name="ScaleTest" configurationId="JUnit" />
+    <history-entry file="ModelTest - 2019.07.27 at 14h 59m 13s.xml">
+      <configuration name="ModelTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScaleTest - 2019.07.27 at 09h 07m 58s.xml">
-      <configuration name="ScaleTest" configurationId="JUnit" />
+    <history-entry file="ModelTest - 2019.07.27 at 15h 02m 35s.xml">
+      <configuration name="ModelTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScaleTest - 2019.07.27 at 09h 09m 03s.xml">
-      <configuration name="ScaleTest" configurationId="JUnit" />
+    <history-entry file="ModelTest - 2019.07.27 at 15h 05m 25s.xml">
+      <configuration name="ModelTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScaleTest - 2019.07.27 at 09h 09m 52s.xml">
-      <configuration name="ScaleTest" configurationId="JUnit" />
+    <history-entry file="ModelTest - 2019.07.27 at 15h 07m 27s.xml">
+      <configuration name="ModelTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoveTest - 2019.07.27 at 09h 11m 00s.xml">
-      <configuration name="MoveTest" configurationId="JUnit" />
+    <history-entry file="ModelTest - 2019.07.27 at 15h 09m 22s.xml">
+      <configuration name="ModelTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="962" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13858365" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28735632" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32988507" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32988507" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.37126437" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assignment8.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IModel.java">
+    <entry file="file://$PROJECT_DIR$/test/MoveTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="71" column="71" selection-start-line="71" selection-start-column="71" selection-end-line="71" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/CS_5004-master 2/Assignment_8/test/ModelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IAnimationModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="948">
-          <caret line="80" column="86" selection-start-line="80" selection-start-column="86" selection-end-line="80" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IShape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ShapeType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="88" selection-start-line="1" selection-start-column="88" selection-end-line="1" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IAnimatedShape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IMotion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="3" />
+        <state relative-caret-position="75">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/ModelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="9" selection-start-line="9" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="702">
+          <caret line="368" column="1" lean-forward="true" selection-start-line="368" selection-start-column="1" selection-end-line="368" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AAnimatedShape.java">
+    <entry file="file://$PROJECT_DIR$/src/IAnimationModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-          <folding>
-            <element signature="e#1514#1515#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/AMotionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnimatedRectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="-156">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnimationModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AShape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1077">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/AShapeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="104" column="59" selection-start-line="104" selection-start-column="59" selection-end-line="104" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
-            <element signature="e#1560#1561#0" expanded="true" />
-            <element signature="e#1715#1716#0" expanded="true" />
-            <element signature="e#1782#1783#0" expanded="true" />
-            <element signature="e#1860#1861#0" expanded="true" />
-            <element signature="e#1925#1926#0" expanded="true" />
-            <element signature="e#2010#2011#0" expanded="true" />
-            <element signature="e#2074#2075#0" expanded="true" />
-            <element signature="e#2155#2156#0" expanded="true" />
-            <element signature="e#2219#2220#0" expanded="true" />
-            <element signature="e#2307#2308#0" expanded="true" />
-            <element signature="e#2372#2373#0" expanded="true" />
-            <element signature="e#2451#2452#0" expanded="true" />
-            <element signature="e#2514#2515#0" expanded="true" />
-            <element signature="e#2598#2599#0" expanded="true" />
-            <element signature="e#2662#2663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ChangeColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-267">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/EllipseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnimatedTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/RectangleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/AnimatedEllipseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="49" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/AnimatedRectangleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="49" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/AnimatedTriangleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ellipse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExistingMove.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Move.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MotionType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/TriangleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnimatedEllipse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AMotion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="91" selection-start-line="32" selection-start-column="91" selection-end-line="32" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ScaleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1289#1290#0" expanded="true" />
-            <element signature="e#1378#1379#0" expanded="true" />
-            <element signature="e#1437#1438#0" expanded="true" />
-            <element signature="e#1514#1515#0" expanded="true" />
-            <element signature="e#1568#1569#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/MoveTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-            <element signature="e#1264#1265#0" expanded="true" />
-            <element signature="e#1349#1350#0" expanded="true" />
-            <element signature="e#1404#1405#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ChangeColorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="61" column="52" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#1738#1739#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="326">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Assignment8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
