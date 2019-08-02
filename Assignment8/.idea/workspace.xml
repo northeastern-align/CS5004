@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1844e905-4748-405f-9acb-dfb7acd384e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lecture10/src/DrawingPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/.idea/workspace.xml" afterDir="false" />
@@ -81,52 +82,6 @@
       <change beforePath="$PROJECT_DIR$/../Assignment7/test/cs3500/marblesolitaire/model/hw02/BoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment7/test/cs3500/marblesolitaire/model/hw02/BoardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment7/test/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment7/test/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/AAnimatedShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/AAnimatedShape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/AMotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/AMotion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/AShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/AShape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/AnimationModel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/AnimationModel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/AnimationModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/AnimationModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/ChangeColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/ChangeColor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/Ellipse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/Ellipse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/ExistingMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/ExistingMove.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/IAnimationModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/IAnimationModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/IMotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/IMotion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/META-INF/Assignment8.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/Move.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/Move.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment8/Scale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment8/Scale.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/AMotionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/AMotionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/AShapeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/AShapeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/AnimatedEllipseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/AnimatedEllipseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/AnimatedRectangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/AnimatedRectangleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/AnimatedTriangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/AnimatedTriangleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/ChangeColorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/ChangeColorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/EllipseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/EllipseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/ModelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/ModelTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/MoveTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/MoveTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/RectangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/RectangleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/ScaleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/ScaleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Assignment8/TriangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment8/TriangleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAnimatedShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAnimatedShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AMotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AMotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimatedEllipse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimatedEllipse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimatedRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimatedRectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimatedTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimatedTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimationModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimationModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChangeColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChangeColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ellipse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ellipse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExistingMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExistingMove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IAnimatedShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IAnimatedShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IAnimationModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IAnimationModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IMotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IMotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MotionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MotionType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Move.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Scale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/AMotionTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/AShapeTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/AnimatedEllipseTest.java" beforeDir="false" />
@@ -167,44 +122,107 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/ModelTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="368" column="1" lean-forward="true" selection-start-line="368" selection-start-column="1" selection-end-line="368" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IAnimationModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-156">
+            <state relative-caret-position="60">
               <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AnimationModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
+            <state relative-caret-position="585">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AAnimatedShape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IShape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
               <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/MoveTest.java">
+        <entry file="file://$PROJECT_DIR$/src/IAnimatedShape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AMotion.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AnimatedEllipse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AnimatedRectangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AnimatedTriangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AShape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1425">
+              <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Triangle</find>
+      <find>IllegalTime</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Ellipse</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -212,15 +230,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/ModelTest.java" />
         <option value="$PROJECT_DIR$/src/AnimationModel.java" />
+        <option value="$PROJECT_DIR$/test/ModelTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="840" />
-    <option name="y" value="23" />
-    <option name="width" value="840" />
+    <option name="y" value="53" />
+    <option name="width" value="1680" />
     <option name="height" value="962" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -229,6 +246,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -251,7 +269,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,37 +356,45 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="962" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="992" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32988507" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32988507" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/ModelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/MoveTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -377,23 +402,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ModelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="368" column="1" lean-forward="true" selection-start-line="368" selection-start-column="1" selection-end-line="368" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IAnimationModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
+        <state relative-caret-position="60">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnimationModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
+        <state relative-caret-position="585">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AAnimatedShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IAnimatedShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AMotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnimatedEllipse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnimatedRectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnimatedTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
           <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
         </state>
       </provider>
