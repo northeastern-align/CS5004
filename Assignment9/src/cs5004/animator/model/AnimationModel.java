@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
+import cs5004.animator.util.TweenModelBuilder;
+
 /**
  * This interface represents the AnimationModel methods offered. The model implements the actual
  * functionality of the Animation assignment.
@@ -209,5 +211,58 @@ public class AnimationModel implements IAnimationModel {
     // of shapes at a certain frame so that the screen can render those shapes. Not sure if
     // this is fully needed for this part of the assignment though, we could leave it blank.
     return null;
+  }
+
+  public static TweenModelBuilder getBuilder(){
+    return new ModelBuilder();
+  }
+
+  public static class ModelBuilder implements TweenModelBuilder{
+
+    IAnimationModel model;
+
+    public ModelBuilder(){
+      model = new AnimationModel();
+    }
+
+    @Override
+    public TweenModelBuilder addOval(String name, float cx, float cy, float xRadius, float yRadius,
+                                     float red, float green, float blue, int startOfLife,
+                                     int endOfLife) {
+
+      model.addShape(name, ShapeType.ELLIPSE, startOfLife, endOfLife, (int) cx, (int) cy,
+              (int) xRadius, (int) yRadius, (int) red, (int) green, (int) blue);
+      return this;
+    }
+
+    @Override
+    public TweenModelBuilder addRectangle(String name, float lx, float ly, float width, float height, float red, float green, float blue, int startOfLife, int endOfLife) {
+      model.addShape(name, ShapeType.RECTANGLE, startOfLife, endOfLife, (int) lx, (int) ly,
+              (int) width, (int) height, (int) red, (int) green, (int) blue);
+      return this;
+    }
+
+    @Override
+    public TweenModelBuilder addMove(String name, float moveFromX, float moveFromY, float moveToX, float moveToY, int startTime, int endTime) {
+      model.addMoveMotion(name, startTime, endTime, (int) moveToX, (int) moveToY);
+      return this;
+    }
+
+    @Override
+    public TweenModelBuilder addColorChange(String name, float oldR, float oldG, float oldB, float newR, float newG, float newB, int startTime, int endTime) {
+      model.addColorChangeMotion(name, startTime, endTime, (int) newR, (int) newG, (int) newB);
+      return this;
+    }
+
+    @Override
+    public TweenModelBuilder addScaleToChange(String name, float fromSx, float fromSy, float toSx, float toSy, int startTime, int endTime) {
+      model.addScaleMotion(name, startTime, endTime, (int) toSx, (int) toSy);
+      return null;
+    }
+
+    @Override
+    public IAnimationModel build() {
+      return model;
+    }
   }
 }

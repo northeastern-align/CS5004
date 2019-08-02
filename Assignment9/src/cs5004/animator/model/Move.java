@@ -79,9 +79,9 @@ public class Move extends AMotion {
 
     updateMotions(moveMotions, animatedShape, t1, x2, y2);
 
-    if (this.fromX == x2 && this.fromY == y2) {
-      throw new IllegalArgumentException("Animation must move between two locations!");
-    }
+//    if (this.fromX == x2 && this.fromY == y2) {
+//      throw new IllegalArgumentException("Animation must move between two locations!");
+//    }
   }
 
   /**

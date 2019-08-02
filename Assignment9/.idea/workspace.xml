@@ -81,26 +81,56 @@
       <change beforePath="$PROJECT_DIR$/../Assignment7/test/cs3500/marblesolitaire/model/hw02/BoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment7/test/cs3500/marblesolitaire/model/hw02/BoardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment7/test/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment7/test/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EasyAnimator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReadME" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadME" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cs5004/animator/model/AMotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs5004/animator/model/AMotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment9.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/ReadMe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/AAnimatedShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/AAnimatedShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/AMotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/AMotion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/AShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/AShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/AnimatedEllipse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/AnimatedEllipse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/AnimatedRectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/AnimatedRectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/AnimatedTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/AnimatedTriangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/AnimationModel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/AnimationModel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/AnimationModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/AnimationModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/ChangeColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/ChangeColor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/Ellipse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/Ellipse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/ExistingMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/ExistingMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/IAnimatedShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/IAnimatedShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/IAnimationModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/IAnimationModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/IMotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/IMotion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/IShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/IShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/MotionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/MotionType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/Move.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/Move.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/Scale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/Scale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/ShapeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/ShapeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/model/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/util/AnimationFileReader$ChangeColorInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/util/AnimationFileReader$ChangeColorInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/util/AnimationFileReader$Inputable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/util/AnimationFileReader$Inputable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/util/AnimationFileReader$MoveInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/util/AnimationFileReader$MoveInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/util/AnimationFileReader$OvalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/util/AnimationFileReader$OvalInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/util/AnimationFileReader$RectangleInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/util/AnimationFileReader$RectangleInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/util/AnimationFileReader$ScaleByInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/util/AnimationFileReader$ScaleByInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/util/AnimationFileReader$ShapeInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/util/AnimationFileReader$ShapeInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/util/AnimationFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/util/AnimationFileReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/util/TweenModelBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment9/cs5004/animator/util/TweenModelBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/AMotionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/AMotionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/AShapeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/AShapeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/AnimatedEllipseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/AnimatedEllipseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/AnimatedRectangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/AnimatedRectangleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/AnimatedTriangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/AnimatedTriangleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/ChangeColorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/ChangeColorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/EllipseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/EllipseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/ModelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/ModelTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/MoveTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/MoveTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/RectangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/RectangleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/ScaleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/ScaleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/TriangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment9/cs5004/animator/model/TriangleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EasyAnimator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EasyAnimator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReadME" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cs5004/animator/model/AnimationModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs5004/animator/model/AnimationModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cs5004/animator/model/ChangeColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs5004/animator/model/ChangeColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cs5004/animator/model/IAnimationModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs5004/animator/model/IAnimationModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cs5004/animator/model/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs5004/animator/model/Move.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cs5004/animator/model/Scale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs5004/animator/model/Scale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cs5004/animator/model/AMotionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cs5004/animator/model/AMotionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cs5004/animator/model/AShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cs5004/animator/model/AShapeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cs5004/animator/model/AnimatedEllipseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cs5004/animator/model/AnimatedEllipseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cs5004/animator/model/AnimatedRectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cs5004/animator/model/AnimatedRectangleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cs5004/animator/model/AnimatedTriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cs5004/animator/model/AnimatedTriangleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cs5004/animator/model/ChangeColorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cs5004/animator/model/ChangeColorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cs5004/animator/model/EllipseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cs5004/animator/model/EllipseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cs5004/animator/model/ModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cs5004/animator/model/ModelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cs5004/animator/model/MoveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cs5004/animator/model/MoveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cs5004/animator/model/RectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cs5004/animator/model/RectangleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cs5004/animator/model/ScaleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cs5004/animator/model/ScaleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cs5004/animator/model/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cs5004/animator/model/TriangleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2/src/FibonacciCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/FibonacciCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2/test/FibonacciCounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/test/FibonacciCounterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2/test/TransmissionBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/test/TransmissionBoxTest.java" afterDir="false" />
@@ -131,18 +161,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/cs5004/animator/model/AnimatedTriangleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/cs5004/animator/model/AShapeTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -221,8 +239,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/EasyAnimator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+            <state relative-caret-position="465">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -292,11 +310,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="840" />
-    <option name="y" value="53" />
-    <option name="width" value="840" />
-    <option name="height" value="962" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="960" />
+    <option name="y" value="23" />
+    <option name="width" value="960" />
+    <option name="height" value="992" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -327,13 +345,21 @@
             <path>
               <item name="Assignment9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Assignment9" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="animator" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="animator" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Assignment9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Assignment9" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -399,7 +425,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="992" extended-state="6" />
+    <frame x="960" y="23" width="960" height="992" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -407,7 +433,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.291939" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -692,10 +718,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReadMe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="96" lean-forward="true" selection-start-line="40" selection-start-column="96" selection-end-line="40" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/EasyAnimator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

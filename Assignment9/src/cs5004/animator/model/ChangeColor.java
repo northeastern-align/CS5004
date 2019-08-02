@@ -86,17 +86,17 @@ public class ChangeColor extends AMotion {
       this.toR = r2;
       this.toG = g2;
       this.toB = b2;
-      if (this.fromR == r2 && this.fromG == g2 && this.fromB == b2) {
-        throw new IllegalArgumentException("Animation must change the color of the shape!");
-      }
+//      if (this.fromR == r2 && this.fromG == g2 && this.fromB == b2) {
+//        throw new IllegalArgumentException("Animation must change the color of the shape!");
+//      }
       return;
     }
 
     updateMotions(colorMotions, animatedShape, t1, r2, g2, b2);
 
-    if (this.fromR == r2 && this.fromG == g2 && this.fromB == b2) {
-      throw new IllegalArgumentException("Animation must change the color of the shape!");
-    }
+//    if (this.fromR == r2 && this.fromG == g2 && this.fromB == b2) {
+//      throw new IllegalArgumentException("Animation must change the color of the shape!");
+//    }
   }
 
   /**
