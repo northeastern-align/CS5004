@@ -29,11 +29,13 @@ public class AnimationModel implements IAnimationModel {
    * @param r the red-balance of the shape's color
    * @param g the green-balance of the shape's color
    * @param b the blue-balance of the shape's color
-   * @throws IllegalArgumentException is the shape is not a valid ShapeType or if time is invalid
+   * @throws IllegalArgumentException is the shape is not a valid ShapeType
    */
   @Override
   public void addShape(String id, ShapeType type, int t1, int t2, int x, int y, int w, int h,
       int r, int g, int b) throws IllegalArgumentException {
+    IShape shape;
+    AAnimatedShape animatedShape;
 
     if (t1 < 0 || t2 < 0) {
       throw new IllegalArgumentException("Time can't be a negative value!");
@@ -43,8 +45,6 @@ public class AnimationModel implements IAnimationModel {
       throw new IllegalArgumentException("End time must be later than start time!");
     }
 
-    IShape shape;
-    AAnimatedShape animatedShape;
     switch (type) {
       case RECTANGLE:
         shape = new Rectangle(x, y, w, h, r, g, b);
@@ -85,6 +85,7 @@ public class AnimationModel implements IAnimationModel {
   @Override
   public void addScaleMotion(String id, int t1, int t2, int w2, int h2)
       throws IllegalArgumentException {
+
     for (IMotion key : motions.keySet()) {
       if (motions.get(key) == id) {
         if (!ExistingMove.validMove(key, t1, t2, MotionType.SCALE)) {
@@ -179,18 +180,19 @@ public class AnimationModel implements IAnimationModel {
   @Override
   public String getState() {
 
-    String output = "Shapes:\n";
+    StringBuilder endString = new StringBuilder();
+    endString.append("Shapes:\n");
 
     for (String key : animatedShapes.keySet()) {
-      output += "Name: " + key + "\n";
-      output += animatedShapes.get(key).toString() + "\n";
+      endString.append("Name: " + key + "\n");
+      endString.append(animatedShapes.get(key).toString() + "\n");
     }
 
     for (Map.Entry<IMotion, String> entry : motions.entrySet()) {
-      output += "Shape " + entry.getValue() + " " + entry.getKey() + "\n";
+      endString.append("Shape " + entry.getValue() + " " + entry.getKey() + "\n");
     }
 
-    return output;
+    return endString.toString();
 
   }
 

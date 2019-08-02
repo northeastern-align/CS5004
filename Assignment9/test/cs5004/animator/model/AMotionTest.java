@@ -1,11 +1,11 @@
 package cs5004.animator.model;
 
-import static org.junit.Assert.*;
-
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.TreeMap;
+
+import static org.junit.Assert.assertEquals;
 
 /**
  * JUnit test class for AMotion.
@@ -15,12 +15,12 @@ public class AMotionTest {
   private IMotion motionColor;
   private IMotion motionMove;
   private IMotion motionScale;
-  private IShape shape;
-  private AAnimatedShape animatedShape;
-  private TreeMap<IMotion, String> motions = new TreeMap<>();
 
   @Before
   public void setup() {
+    IShape shape;
+    AAnimatedShape animatedShape;
+    TreeMap<IMotion, String> motions = new TreeMap<>();
     shape = new Rectangle(10, 10, 3, 8, 250, 250, 250);
     animatedShape = new AnimatedRectangle(shape, 0, 200);
     motionColor = new ChangeColor(motions, animatedShape,0, 10, 5, 5, 5);

@@ -1,6 +1,6 @@
 package cs5004.animator.model;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -15,9 +15,6 @@ public class ScaleTest {
   private Scale scaleR;
   private Scale scaleT;
   private Scale scaleC;
-  private IShape rectangle;
-  private IShape triangle;
-  private IShape circle;
   private AAnimatedShape animatedRectangle;
   private AAnimatedShape animatedEllipse;
   private AAnimatedShape animatedTriangle;
@@ -25,6 +22,9 @@ public class ScaleTest {
 
   @Before
   public void setup() {
+    IShape rectangle;
+    IShape triangle;
+    IShape circle;
     rectangle = new Rectangle(0, 0, 5, 5, 255, 255, 255);
     animatedRectangle = new AnimatedRectangle(rectangle, 0, 50);
     triangle = new Triangle(0, 0, 5, 5, 255, 255, 255);

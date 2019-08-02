@@ -1,6 +1,6 @@
 package cs5004.animator.model;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -10,9 +10,6 @@ import org.junit.Test;
  */
 public class AnimatedRectangleTest {
 
-  private IShape rectangle1;
-  private IShape rectangle2;
-  private IShape rectangle3;
   private AnimatedRectangle animated1;
   private AnimatedRectangle animated2;
   private AnimatedRectangle animated3;
@@ -20,6 +17,9 @@ public class AnimatedRectangleTest {
 
   @Before
   public void setup() {
+    IShape rectangle1;
+    IShape rectangle2;
+    IShape rectangle3;
     rectangle1 = new Rectangle( 0, 0, 5, 5, 100, 100, 100);
     rectangle2 = new Rectangle(3, 27, 16, 22, 0, 100, 200);
     rectangle3 = new Rectangle(65, 11, 44, 1, 255, 255, 3);

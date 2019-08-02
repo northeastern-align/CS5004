@@ -1,6 +1,6 @@
 package cs5004.animator.model;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -10,9 +10,7 @@ import org.junit.Test;
  */
 public class AnimatedEllipseTest {
 
-  private IShape ellipse1;
-  private IShape ellipse2;
-  private IShape ellipse3;
+
   private AnimatedEllipse animated1;
   private AnimatedEllipse animated2;
   private AnimatedEllipse animated3;
@@ -20,6 +18,9 @@ public class AnimatedEllipseTest {
 
   @Before
   public void setup() {
+    IShape ellipse1;
+    IShape ellipse2;
+    IShape ellipse3;
     ellipse1 = new Ellipse( 0, 0, 5, 5, 100, 100, 100);
     ellipse2 = new Ellipse(3, 27, 16, 22, 0, 100, 200);
     ellipse3 = new Ellipse(65, 11, 44, 1, 255, 255, 3);

@@ -21,7 +21,7 @@ public abstract class AMotion implements IMotion, Comparable<AMotion> {
    * @throws IllegalArgumentException if the provides time are negative or the start time is after.
    * the end times.
    */
-  protected AMotion(int t1, int t2, MotionType motionType) {
+  protected AMotion(int t1, int t2, MotionType motionType) throws IllegalArgumentException {
     this.startTime = t1;
     this.endTime = t2;
     this.motionType = motionType;

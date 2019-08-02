@@ -36,7 +36,7 @@ public interface IAnimationModel {
    * @throws IllegalArgumentException if there is already a scale motion during that time frame, or
    * *                                  the shape id is not an existing shape.
    */
-  void addScaleMotion(String id, int t1, int t2, int w2, int h2);
+  void addScaleMotion(String id, int t1, int t2, int w2, int h2) throws IllegalArgumentException;
 
   /**
    * Creates a Move animation and assigns to a shape.
@@ -49,7 +49,7 @@ public interface IAnimationModel {
    * @throws IllegalArgumentException if there is already a move motion during that time frame, of
    * if the shape id is not an existing shape.
    */
-  void addMoveMotion(String id, int t1, int t2, int x2, int y2);
+  void addMoveMotion(String id, int t1, int t2, int x2, int y2) throws IllegalArgumentException;
 
   /**
    * Creates a ColorChange animation and assigns it ot a shape.
@@ -63,7 +63,8 @@ public interface IAnimationModel {
    * @throws IllegalArgumentException if there is already a color change motion during that time *
    * frame of the shape id is not an existing shape
    */
-  void addColorChangeMotion(String id, int t1, int t2, int r2, int g2, int b2);
+  void addColorChangeMotion(String id, int t1, int t2, int r2, int g2, int b2)
+      throws IllegalArgumentException;
 
   /**
    * Prints out the toString methods of the shapes and animations.

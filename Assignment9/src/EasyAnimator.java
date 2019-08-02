@@ -1,16 +1,27 @@
+import cs5004.animator.model.AnimationModel;
+import cs5004.animator.model.IAnimationModel;
+import cs5004.animator.model.ShapeType;
 
-public class Main {
+/**
+ * EasyAnimator class as an example of how to use the animator.
+ */
+public class EasyAnimator {
+  /**
+   * EasyAnimator class as an example of how to use the animator.
+   * @param args arguments
+   */
   public static void main(String[] args) {
     IAnimationModel model = new AnimationModel();
 
-    // Example of adding a shape
+    // AN EXAMPLE OF HOW TO USE THE GAME //
+
     model.addShape("Rectangle1", ShapeType.RECTANGLE, 0, 100, 0, 0, 10,
             10, 200, 100, 200);
-    model.addShape("Ellipse1", ShapeType.ELLIPSE, 0, 30, 20, 20, 20, 20,
+    model.addShape("Ellipse1", ShapeType.ELLIPSE, 0, 60, 20, 20, 20, 20,
             100, 200, 100);
     model.addShape("Triangle1", ShapeType.TRIANGLE, 45, 250, 50, 50, 5, 5,
             50, 100, 50);
-    model.addShape("Triangle2", ShapeType.TRIANGLE, 0, 0, 100, 100, 15, 15,
+    model.addShape("Triangle2", ShapeType.TRIANGLE, 0, 100, 100, 100, 15, 15,
             100, 100, 100);
 
     model.addMoveMotion("Rectangle1", 0, 20, 20, 20);
@@ -22,7 +33,7 @@ public class Main {
     model.addColorChangeMotion("Triangle1", 50, 90, 200, 200, 200);
     model.addScaleMotion("Rectangle1", 6, 30, 900, 900);
 
-//    System.out.println(model.getState());
+    System.out.println(model.getState());
 
   }
 }

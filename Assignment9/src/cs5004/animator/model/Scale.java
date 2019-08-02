@@ -47,6 +47,11 @@ public class Scale extends AMotion {
       throw new IllegalArgumentException("Dimensions of the shape can't be non-positive!");
     }
 
+    if (t1 < animatedShape.appearTime || t2 > animatedShape.disappearTime) {
+      throw new IllegalArgumentException("Animation has to be within shape appear and " +
+          "disappear time!");
+    }
+
     if (everyMotion.size() <= 0) {
       this.startW = animatedShape.shape.getW();
       this.startH = animatedShape.shape.getH();

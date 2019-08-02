@@ -41,6 +41,11 @@ public class Move extends AMotion {
       throw new IllegalArgumentException("Animation can not be in reverse and cannot be negative.");
     }
 
+    if (t1 < animatedShape.appearTime || t2 > animatedShape.disappearTime) {
+      throw new IllegalArgumentException("Animation has to be within shape appear and " +
+          "disappear time!");
+    }
+
     TreeMap<IMotion, String> everyMotion = allMotions;
     ArrayList<Move> moveMotions = new ArrayList<>();
 
